@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+#pong {
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.paddle {
+    height: 100px;
+    width: 20px;
+    position: absolute;
+}
+#player_paddle {
+    background-color: blue;
+}
+
+#ai_paddle {
+    background-color: rgb(255, 0, 0);
+    right: 0px;
+}
+
+#ball {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    left: 160px;
+    top: 140px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#restart:hover {
+    background-color: blue;
+}
+
+#blue_score {
+    font-size: 80px;
+    color: blue;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+
+#red_score {
+    font-size: 80px;
+    color: red;
+    position: absolute;
+    left: 550px;
+    top: 5px;
+}
